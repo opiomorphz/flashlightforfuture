@@ -1,4 +1,3 @@
 # flashlightforfuture
 
-University passing exam final Project
-
+Web Project created as requirement for university final exam
