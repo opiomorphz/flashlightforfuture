@@ -1,0 +1,578 @@
+[
+  {
+    "number": 1,
+    "question": "Aku",
+    "answer": [
+      "romantis dan imajinatif",
+      "praktis dan realistis"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/1a.png",
+      "./assets/images/illus/quiz/1b.png"
+    ],
+    "points": [
+      4,
+      6
+    ]
+  },
+  {
+    "number": 2,
+    "question": "Aku cenderung",
+    "answer": [
+      "menantang konflik",
+      "menghindari konflik"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/2a.png",
+      "./assets/images/illus/quiz/2b.png"
+    ],
+    "points": [
+      8,
+      9
+    ]
+  },
+  {
+    "number": 3,
+    "question": "Aku tipikal orang yang",
+    "answer": [
+      "diplomatis, menarik dan ambisius",
+      "langsung, formal dan idealis"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/3a.png",
+      "./assets/images/illus/quiz/3b.png"
+    ],
+    "points": [
+      3,
+      1
+    ]
+  },
+  {
+    "number": 4,
+    "question": "Aku lebih cenderung untuk",
+    "answer": [
+      "fokus dan intens",
+      "spontan dan suka kegembiraan"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/4a.png",
+      "./assets/images/illus/quiz/4b.png"
+    ],
+    "points": [
+      5,
+      7
+    ]
+  },
+  {
+    "number": 5,
+    "question": "Aku adalah orang yang",
+    "answer": [
+      "ramah dan senang mendapatkan teman baru",
+      "privat dan tidak ingin terlalu berbaur dengan orang lain"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/5a.png",
+      "./assets/images/illus/quiz/5b.png"
+    ],
+    "points": [
+      2,
+      4
+    ]
+  },
+  {
+    "number": 6,
+    "question": "Pada umumnya aku",
+    "answer": [
+      "mudah untuk dibuat kesal",
+      "sulit untuk dibuat kesal"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/6a.png",
+      "./assets/images/illus/quiz/6b.png"
+    ],
+    "points": [
+      6,
+      9
+    ]
+  },
+    {
+    "number": 7,
+    "question": "Dalam keseharian aku cenderung menjadi orang yang",
+    "answer": [
+      "praktis, mengandalkan insting dan akal sehat",
+      "idealis, memiliki standar moral yang tinggi"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/7a.png",
+      "./assets/images/illus/quiz/7b.png"
+    ],
+    "points": [
+      8,
+      1
+    ]
+  },
+  {
+    "number": 8,
+    "question": "Aku",
+    "answer": [
+      "suka menunjukan kasih sayang kepada orang-orang",
+      "lebih suka menjaga jarak dengan orang lain"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/8a.png",
+      "./assets/images/illus/quiz/8b.png"
+    ],
+    "points": [
+      2,
+      5
+    ]
+  },
+    {
+    "number": 9,
+    "question": "Saat dipertemukan dengan pengalaman baru, aku akan",
+    "answer": [
+      "bertanya pada diri sendiri, apakah itu akan berguna?",
+      "bertanya pada diri sendiri, apakah itu akan menyenangkan?"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/9a.png",
+      "./assets/images/illus/quiz/9b.png"
+    ],
+    "points": [
+      3,
+      7
+    ]
+  },
+  {
+    "number": 10,
+    "question": "Aku lebih fokus pada",
+    "answer": [
+      "diri sendiri",
+      "orang lain"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/10a.png",
+      "./assets/images/illus/quiz/10b.png"
+    ],
+    "points": [
+      4,
+      9
+    ]
+  },
+    {
+    "number": 11,
+    "question": "Orang lain bergantung pada",
+    "answer": [
+      "wawasan dan pengetahuanku",
+      "kekuatan dan ketegasanku"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/11a.png",
+      "./assets/images/illus/quiz/11b.png"
+    ],
+    "points": [
+      5,
+      8
+    ]
+  },
+  {
+    "number": 12,
+    "question": "Aku adalah orang yang",
+    "answer": [
+      "kurang yakin pada diri sendiri",
+      "terlalu yakin pada diri sendiri"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/12a.png",
+      "./assets/images/illus/quiz/12b.png"
+    ],
+    "points": [
+      6,
+      1
+    ]
+  },
+  {
+    "number": 13,
+    "question": "Aku lebih fokus pada",
+    "answer": [
+      "fokus pada hubungan daripada tujuan",
+      "fokus pada tujuan daripada hubungan"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/13a.png",
+      "./assets/images/illus/quiz/13b.png"
+    ],
+    "points": [
+      2,
+      3
+    ]
+  },
+    {
+    "number": 14,
+    "question": "Aku orang yang",
+    "answer": [
+      "sulit untuk bicara saat mengungkapkan diriku",
+      "blak-blakan dan berharap orang lain juga dapat seperti itu"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/14a.png",
+      "./assets/images/illus/quiz/14b.png"
+    ],
+    "points": [
+      4,
+      7
+    ]
+  },
+    {
+    "number": 15,
+    "question": "Aku",
+    "answer": [
+      "selalu mempertimbangkan alternatif dan sulit melakukan hal yang pasti",
+      "sulit untuk tenang dan menjadi lebih fleksibel"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/15a.png",
+      "./assets/images/illus/quiz/15b.png"
+    ],
+    "points": [
+      5,
+      1
+    ]
+  },
+    {
+    "number": 16,
+    "question": "Aku cenderung",
+    "answer": [
+      "ragu dan suka menunda-nunda",
+      "tegas dan mendominasi"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/16a.png",
+      "./assets/images/illus/quiz/16b.png"
+    ],
+    "points": [
+      6,
+      8
+    ]
+  },
+    {
+    "number": 17,
+    "question": "Aku bermasalah dengan orang di sekitarku karena",
+    "answer": [
+      "keenggananku untuk terlibat dengan mereka ",
+      "keinginanku untuk selalu diandalkan oleh mereka"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/17a.png",
+      "./assets/images/illus/quiz/17b.png"
+    ],
+    "points": [
+      9,
+      2
+    ]
+  },
+    {
+    "number": 18,
+    "question": "Biasanya, aku",
+    "answer": [
+      "dapat mengesampingkan perasaanku supaya pekerjaan bisa beres",
+      "harus menenangkan diriku sebelum bertindak"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/18a.png",
+      "./assets/images/illus/quiz/18b.png"
+    ],
+    "points": [
+      3,
+      4
+    ]
+  },
+    {
+    "number": 19,
+    "question": "Pada umumnya aku",
+    "answer": [
+      "sistematis dan berhati-hati",
+      "suka bereksplorasi dan mengambil resiko"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/19a.png",
+      "./assets/images/illus/quiz/19b.png"
+    ],
+    "points": [
+      6,
+      7
+    ]
+  },
+    {
+    "number": 20,
+    "question": "Aku cenderung menjadi orang yang",
+    "answer": [
+      "memberi dukungan, menyenangkan bisa menjadi teman bicara orang lain",
+      "serius, pendiam dan suka mendiskusikan isu-isu yang ada"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/20a.png",
+      "./assets/images/illus/quiz/20b.png"
+    ],
+    "points": [
+      2,
+      1
+    ]
+  },
+    {
+    "number": 21,
+    "question": "Aku sering merasa perlu untuk",
+    "answer": [
+      "menjadi orang yang dapat diandalkan",
+      "tampil sempurna"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/21a.png",
+      "./assets/images/illus/quiz/21b.png"
+    ],
+    "points": [
+      8,
+      3
+    ]
+  },
+    {
+    "number": 22,
+    "question": "Penting bagiku untuk",
+    "answer": [
+      "mempertanyakan hal-hal sulit dan menjaga kemandirianku",
+      "menjaga kestabilan dan ketenangan pikiranku"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/22a.png",
+      "./assets/images/illus/quiz/22b.png"
+    ],
+    "points": [
+      5,
+      9
+    ]
+  },
+    {
+    "number": 23,
+    "question": "Aku terlalu",
+    "answer": [
+      "keras kepala dan skeptis",
+      "lembut hati dan sentimental"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/23a.png",
+      "./assets/images/illus/quiz/23b.png"
+    ],
+    "points": [
+      6,
+      2
+    ]
+  },
+  {
+    "number": 24,
+    "question": "Aku kuatir kalau aku",
+    "answer": [
+      "melewatkan sesuatu yang lebih baik",
+      "tidak waspada, akan ada seseorang dapat memanfaatkanku"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/24a.png",
+      "./assets/images/illus/quiz/24b.png"
+    ],
+    "points": [
+      7,
+      8
+    ]
+  },
+    {
+    "number": 25,
+    "question": "Adalah kebiasaanku untuk",
+    "answer": [
+      "menjadi orang yang tak acuh membuat orang lain kesal",
+      "suka memerintah orang lain membuat orang lain kesal"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/25a.png",
+      "./assets/images/illus/quiz/25b.png"
+    ],
+    "points": [
+      4,
+      1
+    ]
+  },
+    {
+    "number": 26,
+    "question": "Pada umumnya, saat aku terkena masalah, maka",
+    "answer": [
+      "aku dapat mengindahkannya dengan bersikap tidak begitu peduli",
+      "menghilangkannya dengan melakukan hal yang aku senangi"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/26a.png",
+      "./assets/images/illus/quiz/26b.png"
+    ],
+    "points": [
+      9,
+      7
+    ]
+  },
+    {
+    "number": 27,
+    "question": "Aku",
+    "answer": [
+      "bergantung pada teman-temanku dan ingin mereka dapat bergantung padaku",
+      "tidak bergantung pada orang lain, aku melakukan hal-hal sendiri"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/27a.png",
+      "./assets/images/illus/quiz/27b.png"
+    ],
+    "points": [
+      6,
+      3
+    ]
+  },
+    {
+    "number": 28,
+    "question": "Aku cenderung",
+    "answer": [
+      "terlepas dari orang lain dan suka menyibukkan diri",
+      "memiliki sifat yang berubah-ubah dan mementingkan diri sendiri"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/28a.png",
+      "./assets/images/illus/quiz/28b.png"
+    ],
+    "points": [
+      5,
+      4
+    ]
+  },
+    {
+    "number": 29,
+    "question": "Aku senang",
+    "answer": [
+      "menantang orang dan “mengguncang mereka”",
+      "menghibur orang dan menenangkan mereka"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/29a.png",
+      "./assets/images/illus/quiz/29b.png"
+    ],
+    "points": [
+      8,
+      2
+    ]
+  },
+    {
+    "number": 30,
+    "question": "Aku pada umumnya adalah orang yang",
+    "answer": [
+      "ramah dan mudah bergaul",
+      "tekun dan disiplin"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/30a.png",
+      "./assets/images/illus/quiz/30b.png"
+    ],
+    "points": [
+      7,
+      1
+    ]
+  },
+    {
+    "number": 31,
+    "question": "Aku biasanya",
+    "answer": [
+      "malu dalam menunjukkan bakatku",
+      "suka menunjukkan apa yang dapat kulakukan"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/31a.png",
+      "./assets/images/illus/quiz/31b.png"
+    ],
+    "points": [
+      9,
+      3
+    ]
+  },
+    {
+    "number": 32,
+    "question": "Penting bagiku untuk",
+    "answer": [
+      "Mengejar apa yang kusukai dibanding memiliki kenyamanan dan keamanan diri",
+      "Memiliki kenyamanan dan keamanan diri dibanding mengejar apa yang kusukai"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/32a.png",
+      "./assets/images/illus/quiz/32b.png"
+    ],
+    "points": [
+      5,
+      6
+    ]
+  },
+    {
+    "number": 33,
+    "question": "Saat aku berkonflik dengan orang lain",
+    "answer": [
+      "aku cenderung mengalah",
+      "aku jarang mengalah"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/33a.png",
+      "./assets/images/illus/quiz/33b.png"
+    ],
+    "points": [
+      4,
+      8
+    ]
+  },
+    {
+    "number": 34,
+    "question": "Aku",
+    "answer": [
+      "mudah menyerah dan membiarkan orang lain mempengaruhi saya",
+      "sulit berkompromi dan menuntut orang lain"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/34a.png",
+      "./assets/images/illus/quiz/34b.png"
+    ],
+    "points": [
+      9,
+      1
+    ]
+  },
+    {
+    "number": 35,
+    "question": "Aku dihargai karena",
+    "answer": [
+      "semangat yang berapi-api dan selera humor yang bagus",
+      "kekuatan dan kemurahan hatiku"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/35a.png",
+      "./assets/images/illus/quiz/35b.png"
+    ],
+    "points": [
+      7,
+      2
+    ]
+  },
+    {
+    "number": 36,
+    "question": "Kesuksesanku",
+    "answer": [
+      "adalah buah dari kemampuanku untuk memberi kesan yang baik",
+      "tercapai meskipun kemampuan interpersonalku kurang"
+    ],
+    "picture": [
+      "./assets/images/illus/quiz/36a.png",
+      "./assets/images/illus/quiz/36b.png"
+    ],
+    "points": [
+      3,
+      5
+    ]
+  }
+]

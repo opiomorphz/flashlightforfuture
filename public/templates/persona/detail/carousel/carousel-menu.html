@@ -1,0 +1,33 @@
+<!-- Controls -->
+<div class="container-fluid">
+    <div class="row container-menu-carousel">
+        <div class="col-xs-2 col-sm-3 col-md-4">
+            <a ng-click="detailCtrl.left()" id="l-car-button" class="btn carousel-button" role="button">
+                &lt;
+            </a>
+        </div>
+        <div class="col-xs-8 col-sm-6 col-md-4">
+            <img class="img-header-carousel img-responsive" ng-src={{detailCtrl.carouselImages[detailCtrl.current-1].header}}>
+        </div>
+        <div class="col-xs-2 col-sm-3 col-md-4">
+            <a ng-click="detailCtrl.right()" id="r-car-button" class="btn carousel-button">
+                &gt;
+            </a>
+        </div>
+    </div>
+    <!-- Carousel -->
+    <div id="big-carousel" class="center-block">
+        <div ng-repeat="num in [1,2,3,4,5,6,7,8,9]"
+            id="detail-carousel-wrapper"
+            ng-show="num == detailCtrl.current"
+            class="center-block ng-class:{
+            'carousel-slideInLeft': detailCtrl.shouldSlideInLeft(num),
+            'carousel-slideInRight': detailCtrl.shouldSlideInRight(num),
+            'carousel-slideOutLeft': detailCtrl.shouldSlideOutLeft(num),
+            'carousel-slideOutRight': detailCtrl.shouldSlideOutRight(num)
+            }">
+            <img class="img-carousel img-responsive center-block" ng-src={{detailCtrl.carouselImages[num-1].image}}>
+        </div>
+        <img class="img-base img-responsive center-block" src="./assets/images/illus/carousel/base.png">
+    </div>
+</div>

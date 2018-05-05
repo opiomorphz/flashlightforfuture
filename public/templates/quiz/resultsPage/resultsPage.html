@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <h3 class="center-block text-center text-instruction-header results-title">
+                <span class="highlighter">Kamu adalah</span>
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <img class="img-result img-responsive center-block" ng-src ={{quiz.results[quiz.highest].picture[quiz.gender]}}>
+        </div>
+    </div>
+    <div class="row center-block results-contentContainer">
+        <div class="col-xs-12 results-content">
+            <p class="text-center">
+                {{quiz.results[quiz.highest].description}}
+            </p>
+            <p class="text-center">
+                <img id="result-icon" src="/assets/images/illus/object/bintang.png">
+                <strong id="text-result-best">
+                Di saat terbaik, kamu:
+                </strong>
+            </p>
+            <p class="text-center">
+                {{quiz.results[quiz.highest].best}}
+            </p>
+        </div>
+        <!-- Buttons -->
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <a id="read-btn" class="btn results-btn" href="#/persona/details" ng-click="quiz.callToSetNumber()" role="button">
+                    baca selengkapnya
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <a id="fb-btn" class="btn results-btn" ng-href="https://facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsembilanpersona.herokuapp.com" target="_blank" role="button">
+                    share ke facebook
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <a id="tw-btn" class="btn results-btn" ng-href="https://twitter.com/intent/tweet/?text=Saya%20adalah%20si%20{{quiz.results[quiz.highest].type}}!&url=http%3A%2F%2Fsembilanpersona.herokuapp.com" target="_blank" role="button">
+                    share ke twitter
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

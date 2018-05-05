@@ -1,0 +1,56 @@
+[
+{
+    "number": 1,
+    "picture":["assets/images/illus/result/01-male.png", "assets/images/illus/result/01-female.png"],
+    "description":"Kamu orang yang peka dan etis, mampu membedakan yang benar dan salah. Seorang guru, ksatria garis depan, dan pendukung perubahan: selalu berjuang untuk membuat semua hal lebih baik, namun takut membuat kesalahan. Rapi dan pilih-pilih, kamu menjaga standar yang tinggi, namun dapat menjadi kritis dan perfeksionis. Suka bermasalah dengan penyesalan dan ketidaksabaran.",
+    "best":"Bijak, cerdas, realistis dan mulia. Dapat menjadi pahlawan secara moral."
+},
+{
+    "number": 2,
+    "picture":["assets/images/illus/result/02-male.png", "assets/images/illus/result/02-female.png"],
+    "description":"Kamu adalah orang yang hangat, empatis, dan rendah hati. Kamu juga ramah, dermawan dan rela berkorban, namun bisa menjadi sentimental, dan menghanyutkan. Kamu bermaksud baik dan ingin lebih dekat dengan orang lain, namun bisa saja ikut melakukan hal untuk orang lain saat dibutuhkan. Kebutuhan kamu untuk dicintai dan dihargai yang besar membawamu pada sifat posesif dan memanipulasi orang.",
+    "best":"Tidak egois dan memperhatikan kesejahteraan orang lain, memberikan kasih sayang tanpa batas bagi sekitarmu."
+},
+{
+    "number": 3,
+    "picture":["assets/images/illus/result/03-male.png", "assets/images/illus/result/03-female.png"],
+    "description":"Kamu adalah orang yakin pada diri sendiri dan menarik secara fisik dan mental. Ambisius, mampu dan enerjik, mereka juga sadar pada diri sendiri dan terdorong pada kemajuan. Kamu diplomatis dan siap, namun bisa juga terlalu peduli dengan citra dirimu dihadapan orang lain. Kamu memiliki masalah dengan sifat workaholic dan suka bersaing.",
+    "best":"Mampu menerima diri sendiri, tampil apa adanya, dan apa yang kamu lakukan bisa menjadi inspirasi untuk orang lain."
+},
+{
+    "number": 4,
+    "picture":["assets/images/illus/result/04-male.png", "assets/images/illus/result/04-female.png"],
+    "description":"Kamu sangat peka terhadap perasaan dirimu, orang yang ekspresif dan menjaga gambaran diri sendiri. Kamu jujur secara emosional, kreatif dan bisa saja berubah-ubah sifatnya. Menahan diri dari orang lain karena merasa rentan dan bercela, kamu juga merasa direndahkan dan dibedakan dari cara hidup yang biasa. Pada umumnya kamu bermasalah karena terlalu melankolis, rasa ingin memuaskan diri sendiri, dan mengasihani diri sendiri.",
+    "best":"Selalu terinspirasi dan sangat kreatif, kamu mampu untuk memperbarui diri sendiri dan berubah melalui pengalaman."
+},
+{
+    "number": 5,
+    "picture":["assets/images/illus/result/05-male.png", "assets/images/illus/result/05-female.png"],
+    "description":"Kamu mampu berkonsentrasi dan fokus pada mengembangkan akal yang kompleks dan membutuhkan kemampuan. Mandiri, inovatif dan inventif. Kamu suka tenggelam dalam pikiranmu dan hal-hal yang imajiner. Kamu dapat menjadi penyendiri, namun tegang dan intensif. Kamu bermasalah dengan eksentrisitas, nihilisme, dan isolasi.",
+    "best":"Menjadi pelopor yang visioner dan memandang jauh ke depan waktunya, dan mampu melihat dunia dari sudut pandang yang baru."
+},
+{
+    "number": 6,
+    "picture":["assets/images/illus/result/06-male.png", "assets/images/illus/result/06-female.png"],
+    "description":"Kamu dapat dipercaya, pekerja keras, bertanggung jawab dan dapat diandalkan. Kamu dapat melihat masalah dengan baik, pemberi solusi yang handal dan suka bekerja sama, namun bisa juga menjadi defensif, suka cemas, ragu terhadap diri sendiri, suka berprasangka buruk dan menghindar dari masalah. Kamu sangat berhati-hati dan bisa menjadi plin plan. Di sisi lainnya reaktif, menantang dan pemberontak.",
+    "best":"Stabil secara internal dan mandiri, pemberani dalam memperjuangkan diri sendiri dan orang lain."
+},
+{
+    "number": 7,
+    "picture":["assets/images/illus/result/07-male.png", "assets/images/illus/result/07-female.png"],
+    "description":"Kamu mudah bergaul, bersemangat tinggi, dan praktis, multi talenta akan tetapi dapat salah mengaplikasikan bakatmu, menjadi terlalu tidak fokus dan tidak disiplin. Kamu terus mencari pengalaman baru dan menarik, namun bisa bimbang dan mudah lelah dengan tidak bergerak saat menggapai tujuan. Kamu seringkali tidak sabaran dan terlalu mengikuti keinginan hati.",
+    "best":"Fokus pada bakatmu dalam menggapai tujuan, menghargai orang lain, ceria dan lebih puas diri."
+},
+{
+    "number": 8,
+    "picture":["assets/images/illus/result/08-male.png", "assets/images/illus/result/08-female.png"],
+    "description":"Kamu orang yang protektif, banyak akal, jujur dalam bicara, pengambil keputusan, berorientasi pada diri sendiri dan mendominasi orang lain. Kamu punya rasa harus mengendalikan lingkunganmu, khususnya dengan orang lain, terkadang mengambil konfrontasi dan mengintimidasi. Kamu memiliki masalah dengan emosi yang meledak-ledak dan juga agresif.",
+    "best":"Mampu menguasai diri sendiri, memakai kekuatan sendiri untuk membuat hidup orang lain lebih baik, menjadi heroik, murah hati dan menginspirasi."
+},
+{
+    "number": 9,
+    "picture":["assets/images/illus/result/09-male.png", "assets/images/illus/result/09-female.png"],
+    "description":"Pada umumnya kamu orang yang kreatif, optimis dan mendukung, bisa juga kamu rela mengikuti alur orang lain untuk menjaga perdamaian. Kamu ingin semuanya berjalan dengan lancar tanpa konflik, sehingga kamu seringkali mempermudah masalah dan meminimalisirkan hal hal yang dapat membuat jengkel serta tidak gigih dalam berjuang. Kamu memiliki masalah dengan sikap pasif dan keras kepala.",
+    "best":"Gigih dan merangkul semua, kamu mampu membawa semua orang bersama-sama dan menyembuhkan konflik yang ada."
+}
+]

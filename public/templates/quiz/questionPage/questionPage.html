@@ -1,0 +1,31 @@
+<div class="container quizContainer">
+  <div class="row">
+    <div class="col-xs-12 quizHeader">
+      <h3 class="text-center">
+      {{question.question}}...
+      </h3>
+    </div>
+  </div>
+  <div class="row chooser quizContent">
+    <div class="col-xs-12 col-sm-6 text-center">
+      <label class="left-content" ng-click="quiz.setAnswer(0);quiz.showNextQuestion()">
+        <div class="answer-text-container">
+          <p class="answerP">
+            {{question.answer[0]}}
+          </p>
+        </div>
+        <img class="square-image img-responsive center-block questionPic" ng-src="{{question.picture[0]}}">
+      </label>
+    </div>
+    <div class="col-xs-12 col-sm-6 text-center">
+      <label class="right-content" ng-click="quiz.setAnswer(1);quiz.showNextQuestion()">
+        <div class="answer-text-container">
+          <p class="answerP">
+            {{question.answer[1]}}
+          </p>
+        </div>
+        <img class="square-image img-responsive center-block questionPic" ng-src="{{question.picture[1]}}">
+      </label>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,158 @@
+<div ng-controller="detailController as detailCtrl">
+    <nav class="fixed-links-wrapper hidden-xs visible-sm visible-md visible-lg">
+        <ul class="fixed-links">
+            <a du-smooth-scroll="carousel" offset="100" du-scrollspy><li></li></a>
+            <a du-smooth-scroll="characteristics" du-scrollspy><li></li></a>
+            <a du-smooth-scroll="wings" du-scrollspy><li></li></a>
+            <a du-smooth-scroll="arrow" du-scrollspy><li></li></a>
+            <a du-smooth-scroll="relations" du-scrollspy><li></li></a>
+        </ul>
+    </nav>
+    <!-- Carousel -->
+    <carousel-menu id="carousel"></carousel-menu>
+    <!-- dropdown -->
+    <div id="detail-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <button data-toggle="collapse" href="#persona-dropdown" aria-expanded="false" aria-controls="persona-dropdown" ng-click="detailCtrl.moveDropdownToScreen()"
+                    class="img-circle center-block dropdowner-button
+                    ng-class:{'instinct': detailCtrl.type == 1,
+                    'feeling': detailCtrl.type == 2,
+                    'thinking': detailCtrl.type == 3}">
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="collapse dropdown-container" id="persona-dropdown">
+                    <div class="container-fluid ng-class:{'instinct': detailCtrl.type == 1,
+                        'feeling': detailCtrl.type == 2,
+                        'thinking': detailCtrl.type == 3}">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="dropdown-box">
+                                    <img ng-src={{detailCtrl.dropdownData[detailCtrl.current-1].image}} class="img-dropdown img-circle img-responsive center-block">
+                                    <h4 class="center-block text-center">
+                                    {{detailCtrl.dropdownData[detailCtrl.current-1].header}}
+                                    </h4>
+                                    <p class="center-block text-center">
+                                        {{detailCtrl.dropdownData[detailCtrl.current-1].text}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- karakteristik -->
+        <characteristics id="characteristics"></characteristics>
+        <!-- sayap -->
+        <wings id="wings"></wings>
+        <!-- Panah -->
+    <arrow id="arrow"></arrow>
+    <!-- Relasi -->
+    <relations id="relations"></relations>
+</div>
+<!-- <div id="tips">
+    <div class="container">
+        <div class="row">
+            <h3 class="center-block text-center text-persona-header">
+            <span class="highlighter">Tips untuk Kamu Tipe {{detailCtrl.current}}</span>
+            </h3>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 hidden-xs">
+                <div class="text-right">
+                    <h2>
+                    Emosi &<br>
+                    Diri Sendiri
+                    </h2>
+                </div>
+                <ul dir="rtl" class="tips-list">
+                    <li class="text-right">
+                        {{detailCtrl.tipsData[detailCtrl.current]["left"][0]}}<br>
+                        {{detailCtrl.tipsData[detailCtrl.current]["left"][1]}}<br>
+                        {{detailCtrl.tipsData[detailCtrl.current]["left"][2]}}<br>
+                        {{detailCtrl.tipsData[detailCtrl.current]["left"][3]}}
+                    </li>
+                    <li>
+                        {{detailCtrl.tipsData[detailCtrl.current]["left"][4]}}<br>
+                        {{detailCtrl.tipsData[detailCtrl.current]["left"][5]}}<br>
+                        {{detailCtrl.tipsData[detailCtrl.current]["left"][6]}}<br>
+                        {{detailCtrl.tipsData[detailCtrl.current]["left"][7]}}
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <img src="http://placehold.it/359x566" alt="" class="img-responsive center-block">
+            </div>
+            <div class="col-xs-12 col-sm-4 hidden-xs">
+                <div>
+                    <h2>
+                    Pergaulan &<br>
+                    Pekerjaan
+                    </h2>
+                </div>
+                <ul class="tips-list tips-list-right">
+                    <li>
+                        {{detailCtrl.tipsData[detailCtrl.current]["right"][0]}}<br>
+                        {{detailCtrl.tipsData[detailCtrl.current]["right"][1]}}<br>
+                        {{detailCtrl.tipsData[detailCtrl.current]["right"][2]}}<br>
+                        {{detailCtrl.tipsData[detailCtrl.current]["right"][3]}}
+                    </li>
+                    <li>
+                        {{detailCtrl.tipsData[detailCtrl.current]["right"][4]}}<br>
+                        {{detailCtrl.tipsData[detailCtrl.current]["right"][5]}}<br>
+                        {{detailCtrl.tipsData[detailCtrl.current]["right"][6]}}<br>
+                        {{detailCtrl.tipsData[detailCtrl.current]["right"][7]}}
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+                <div class=" tips-block center-block">
+                    <h2>
+                    Emosi &<br>
+                    Diri Sendiri
+                    </h2>
+                    <ul class="tips-list">
+                        <li>
+                            {{detailCtrl.tipsData[detailCtrl.current]["left"][0]}}<br>
+                            {{detailCtrl.tipsData[detailCtrl.current]["left"][1]}}<br>
+                            {{detailCtrl.tipsData[detailCtrl.current]["left"][2]}}<br>
+                            {{detailCtrl.tipsData[detailCtrl.current]["left"][3]}}
+                        </li>
+                        <li>
+                            {{detailCtrl.tipsData[detailCtrl.current]["left"][4]}}<br>
+                            {{detailCtrl.tipsData[detailCtrl.current]["left"][5]}}<br>
+                            {{detailCtrl.tipsData[detailCtrl.current]["left"][6]}}<br>
+                            {{detailCtrl.tipsData[detailCtrl.current]["left"][7]}}
+                        </li>
+                    </ul>
+                    <h2>
+                    Pergaulan &<br>
+                    Pekerjaan
+                    </h2>
+                    <ul class="tips-list">
+                        <li>
+                            {{detailCtrl.tipsData[detailCtrl.current]["right"][0]}}<br>
+                            {{detailCtrl.tipsData[detailCtrl.current]["right"][1]}}<br>
+                            {{detailCtrl.tipsData[detailCtrl.current]["right"][2]}}<br>
+                            {{detailCtrl.tipsData[detailCtrl.current]["right"][3]}}
+                        </li>
+                        <li>
+                            {{detailCtrl.tipsData[detailCtrl.current]["right"][4]}}<br>
+                            {{detailCtrl.tipsData[detailCtrl.current]["right"][5]}}<br>
+                            {{detailCtrl.tipsData[detailCtrl.current]["right"][6]}}<br>
+                            {{detailCtrl.tipsData[detailCtrl.current]["right"][7]}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+</div>
+</div>

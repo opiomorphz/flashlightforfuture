@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html ng-app="personaApp" ng-controller="AppController as app">
+  <head>
+    <title ng-bind="title + ' &mdash; 9PERSONA'"></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon-16x16.png"/>
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon-32x32.png"/>
+    <!-- Javascript -->
+    <script src="assets/js/jquery-2.1.4.min.js"></script>
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/angular-route.min.js"></script>
+    <script src="assets/js/angular-animate.min.js"></script>
+    <script src="assets/js/angular-scroll.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Angular scripts -->
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/detailService.js"></script>
+    <!-- Quiz -->
+    <script src="./templates/quiz/quizController.js"></script>
+    <script src="./templates/quiz/genderPage/genderPage.js"></script>
+    <script src="./templates/quiz/questionPage/questionPage.js"></script>
+    <script src="./templates/quiz/resultsPage/resultsPage.js"></script>
+    <!-- Persona -->
+    <script src="./templates/about/aboutController.js"></script>
+    <script src="./templates/persona/gridController.js"></script>
+    <script src="./templates/persona/detail/detailController.js"></script>
+    <script src="./templates/persona/detail/carousel/carousel-menu.js"></script>
+    <script src="./templates/persona/detail/content/relations.js"></script>
+    <script src="./templates/persona/detail/content/arrow.js"></script>
+    <script src="./templates/persona/detail/content/wings.js"></script>
+    <script src="./templates/persona/detail/content/characteristics.js"></script>
+    <!-- CSS Styles -->
+    <link href="./assets/css/animate.css" rel="stylesheet" media="screen">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="./assets/fonts/stylesheet.css" rel="stylesheet">
+    <link href="./assets/css/style.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <!--hamburger button-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar top-bar"></span>
+          <span class="icon-bar middle-bar"></span>
+          <span class="icon-bar bottom-bar"></span>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav menuFont">
+            <li><a ng-href="#/" ng-click="app.hideDropdown()">home</a></li>
+            <li><a ng-href="#/persona" ng-click="app.hideDropdown()">persona</a></li>
+            <li><a ng-href="#/about" ng-click="app.hideDropdown()">about</a></li>
+            <li><a ng-href="#/download" ng-click="app.hideDropdown()">download</a></li>
+          </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+      <div ng-view ng-class="this.animation" >
+      </div>
+      <footer class="navbar-fixed-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <p class="text-center persona-light-text">2015 - 9PERSONA</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>

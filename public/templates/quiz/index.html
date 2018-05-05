@@ -1,0 +1,80 @@
+<div ng-controller="quizController as quiz">
+  <!-- modal -->
+  <div class="modal fade" id="instructionModal">
+    <div class="vertical-alignment-helper">
+      <div class="modal-dialog vertical-align-center">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">
+              &times;
+            </span>
+            </button>
+            <div class="container-fluid">
+              <h4 class="center-block text-center text-instruction-header">
+              <span class="modal-title highlighter">Ikuti Instruksi Di Bawah Ini</span>
+              </h4>
+              <div class="row instruction-content">
+                <div class="col-sm-4">
+                  <img class="img-instruction img-responsive center-block" src ="./assets/images/illus/instruksi/01.png">
+                  <p class="text-center center-block text-instruction persona-dark-text">
+                    Kuis ini ditujukan untuk menghibur, sekaligus membuka wawasan akan karakter dalam diri.
+                  </p>
+                </div>
+                <div class="col-sm-4">
+                  <img class="img-instruction img-responsive center-block" src ="./assets/images/illus/instruksi/02.png">
+                  <p class="text-center center-block text-instruction persona-dark-text">
+                    Beri tanda centang pada kotak pernyataan yang sesuai dengan sikap dan tingkah laku keseharianmu.
+                  </p>
+                </div>
+                <div class="col-sm-4">
+                  <img class="img-instruction img-responsive center-block" src ="./assets/images/illus/instruksi/03.png">
+                  <p class="text-center center-block text-instruction persona-dark-text">
+                    Selesaikan dalam waktu ±10 menit.<br><br>
+                    <strong>Selamat mencoba!</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- gender -->
+  <div class="gender-wrapper">
+    <div class="gender-anim" ng-show="quiz.isGenderPage()">
+      <gender-page>
+      </gender-page>
+    </div>
+  </div>
+<!-- question -->
+  <div class="question-anim" ng-repeat="question in quiz.questions">
+    <div class="question-anim" ng-show="quiz.questionNumber == question.number">
+      <question-page ng-class=""></question-page>
+    </div>
+    <!-- Progress bar -->
+    <div ng-show="quiz.questionNumber == question.number">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-6 col-xs-offset-3 progress-container">
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" aria-valuenow="1"
+                aria-valuemin="1" aria-valuemax="36" ng-style="{width: question.number / quiz.questions.length * 100 + '%'}">
+                <span class="sr-only">{{question.number}} dari 36</span>
+              </div>
+            </div>
+            <div class="text-center headText">
+              <strong>
+              {{question.number / quiz.questions.length * 100 | number : 0 }}%
+              </strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="results-anim" ng-show="quiz.questionNumber > quiz.questions.length">
+    <results-page></results-page>
+  </div>
+</div>
