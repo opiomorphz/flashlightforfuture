@@ -330,8 +330,8 @@ footer p {
 
 .logo-animation {
     z-index: 1;
-    -webkit-animation: slideInDownLogo 5.0s;
-    animation: slideInDownLogo 5.0s
+    -webkit-animation: slideInDownLogo 1.0s;
+    animation: slideInDownLogo 1.0s
 }
 
 .logo-animation.ng-leave {
@@ -430,6 +430,17 @@ footer p {
     transition: 0.3s all;
     -webkit-transition: 0.3s all
 }
+
+#main-bottom-center {
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    z-index: -2;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all
+}
+
 
 #main-bottom {
     position: fixed;
