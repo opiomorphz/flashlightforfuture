@@ -1,4 +1,4 @@
-angular.module("personaApp")
+angular.module("flashlightForFutureApp")
 .controller('quizController', function(detailService, $http){
     var quiz = this;
     quiz.questionNumber = 0;

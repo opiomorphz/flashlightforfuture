@@ -1,10 +1,10 @@
 {
-  "name": "9persona",
+  "name": "flahlightforfuture",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.12.4"
+    "express": "^4.16.3"
   },
   "devDependencies": {},
   "scripts": {
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hendryl/9persona.git"
+    "url": "https://github.com/opiomorphz/flashlightforfuture.git"
   },
-  "author": "hendryl",
+  "author": "opiomorphz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hendryl/9persona/issues"
+    "url": "https://github.com/opiomorphz/flashlightforfuture/issues"
   },
-  "homepage": "https://github.com/hendryl/9persona"
+  "homepage": "https://github.com/opiomorphz/flashlightforfuture"
 }

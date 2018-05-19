@@ -1,4 +1,4 @@
-angular.module('personaApp')
+angular.module('flashlightForFutureApp')
 .directive('carouselMenu', function() {
     return {
         restrict: 'E',

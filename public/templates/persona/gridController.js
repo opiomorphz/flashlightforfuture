@@ -1,4 +1,4 @@
-angular.module("personaApp")
+angular.module("flashlightForFutureApp")
 .controller('gridController', ['detailService', function(detailService) {
     var ctrl = this;
 

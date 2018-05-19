@@ -1,4 +1,4 @@
-angular.module("personaApp")
+angular.module("flashlightForFutureApp")
 .controller('detailController', function(detailService, $http){
     var ctrl = this;
     ctrl.current = 1;

@@ -1,4 +1,4 @@
-angular.module('personaApp')
+angular.module('flashlightForFutureApp')
 .directive('relations', function() {
     return {
         restrict: 'E',

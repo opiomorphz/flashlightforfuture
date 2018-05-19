@@ -1,4 +1,4 @@
-angular.module('personaApp')
+angular.module('flashlightForFutureApp')
 .directive('characteristics', function() {
     return {
         restrict: 'E',

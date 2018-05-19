@@ -1,4 +1,4 @@
-angular.module("personaApp")
+angular.module("flashlightForFutureApp")
 .controller('aboutController', ['$scope', '$animate', function($scope, $animate){
     var ctrl = this;
 
