@@ -4,10 +4,12 @@
     "question": "Aku",
     "answer": [
       "romantis dan imajinatif",
-      "praktis dan realistis"
+      "praktis dan realistis",
+      "praktis dan realistis2"
     ],
     "picture": [
       "./assets/images/illus/quiz/1a.png",
+      "./assets/images/illus/quiz/1b.png",
       "./assets/images/illus/quiz/1b.png"
     ],
     "points": [

@@ -7,18 +7,18 @@
     </div>
   </div>
   <div class="row chooser quizContent">
-    <div class="col-xs-12 col-sm-6 text-center">
-      <label class="left-content" ng-click="quiz.setAnswer(0);quiz.showNextQuestion()">
+    <div class="col-xs-12 col-sm-4 text-center" ng-show="quiz.isAvailForShow(0)">
+      <label class="question-content" ng-click="quiz.setAnswer(0);quiz.showNextQuestion()">
         <div class="answer-text-container">
-          <p class="answerP">
+          
             {{question.answer[0]}}
-          </p>
+        
         </div>
         <img class="square-image img-responsive center-block questionPic" ng-src="{{question.picture[0]}}">
       </label>
     </div>
-    <div class="col-xs-12 col-sm-6 text-center">
-      <label class="right-content" ng-click="quiz.setAnswer(1);quiz.showNextQuestion()">
+    <div class="col-xs-12 col-sm-4 text-center" ng-show="quiz.isAvailForShow(1)">
+      <label class="question-content" ng-click="quiz.setAnswer(1);quiz.showNextQuestion()">
         <div class="answer-text-container">
           <p class="answerP">
             {{question.answer[1]}}
@@ -27,5 +27,14 @@
         <img class="square-image img-responsive center-block questionPic" ng-src="{{question.picture[1]}}">
       </label>
     </div>
+    <div class="col-xs-12 col-sm-4 text-center" ng-show="quiz.isAvailForShow(2)">
+        <label class="question-content" ng-click="quiz.setAnswer(2);quiz.showNextQuestion()" >
+          <div class="answer-text-container">
+          
+              {{question.answer[2]}}
+          </div>
+          <img class="square-image img-responsive center-block questionPic" ng-src="{{question.picture[2]}}">
+        </label>
+      </div>
   </div>
 </div>

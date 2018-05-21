@@ -17,6 +17,18 @@ angular.module("flashlightForFutureApp")
         return quiz.questionNumber == 0;
     }
 
+    quiz.isAvailForShow = function(colNo) {
+      
+        var isShow = true;
+        var currentQuestion = quiz.questions[quiz.questionNumber -1 ];
+        
+
+        if(currentQuestion.length > (colNo + 1) ){
+            isShow = false;
+        }
+        return isShow;
+    };
+
     quiz.setGender = function(gender) {
         quiz.gender = gender;
         console.log("Successfully set gender to " + gender)
