@@ -547,12 +547,13 @@ button.close {
 }
 
 .gender-wrapper {
-    margin-top: 65px;
+    margin-top: 35px;
     margin-bottom: 65px
 }
 
 .quizContainer {
-    width: 730px;
+    /*width: 730px;*/
+    width: 530px;
     border: 0 none;
     margin: 0 auto;
     overflow: hidden
@@ -629,9 +630,9 @@ label>input {
 }
 
 .answer-text-container {
-    height: 66px;
+    height: 30px;
     max-width: 320px;
-    background-color: white;
+    /*background-color: white;*/
     display: flex;
     display: -webkit-flex;
     display: ms-flexbox;
@@ -640,7 +641,9 @@ label>input {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    padding: 5px;
+    padding: 0px;
+    font-size: 14px;
+    font-weight: normal;
     border-radius: 10px 10px 0 0;
     cursor: pointer
 }

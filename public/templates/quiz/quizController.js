@@ -50,7 +50,7 @@ angular.module("flashlightForFutureApp")
 
         quiz.setGender(number);
 
-        $http.get('/assets/data/quizData.json').success(function(data){
+        $http.get('/assets/data/discData.json').success(function(data){
             quiz.questions = data;
             console.log("Successfully loaded " + quiz.questions.length + " questions");
             quiz.showNextQuestion();

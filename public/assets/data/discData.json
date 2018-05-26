@@ -1,0 +1,443 @@
+[
+  {
+    "number": 1,
+    "question": "Ketika Pergi Untuk Berenang",
+    "answer": [
+      "Langsung menyebur ke kolam",
+      "Menganalisis kolam dahulu (kebersihan,suhu,keamanan)",
+      "Baru turun ke kolam, ketika yang lain sudah turun",
+      "Sibuk berinteraksi dengan orang"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/1/Untitled-1-01.png",
+      "./assets/images/flashlight/questions/1/Untitled-1-02.png",
+      "./assets/images/flashlight/questions/1/Untitled-1-03.png",
+      "./assets/images/flashlight/questions/1/Untitled-1-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "number": 2,
+    "question": "Hiasan Meja",
+    "answer": [
+      "Dipenuhi foto dan kenangan",
+      "Menarik perhatian",
+      "Tersusun rapi",
+      "Penuh dengan penghargaan"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/2/Untitled-2-01.png",
+      "./assets/images/flashlight/questions/2/Untitled-2-02.png",
+      "./assets/images/flashlight/questions/2/Untitled-2-03.png",
+      "./assets/images/flashlight/questions/2/Untitled-2-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "number": 3,
+    "question": "Ketika Mengerjakan Tugas",
+    "answer": [
+      "Dilakukan bersama-sama",
+      "Dilakukan dengan benar",
+      "Dilakukan sekarang",
+      "Dilakukan dengan menyenangkan"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/3/Untitled-3-01.png",
+      "./assets/images/flashlight/questions/3/Untitled-3-02.png",
+      "./assets/images/flashlight/questions/3/Untitled-3-03.png",
+      "./assets/images/flashlight/questions/3/Untitled-3-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "number": 4,
+    "question": "Tantangan Pribadi ",
+    "answer": [
+      "Menyenangkan orang lain",
+      "Lebih tegas dan berani",
+      "lebih bersahabat",
+      "Perkataan sesuai fakta"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/4/Untitled-4-01.png",
+      "./assets/images/flashlight/questions/4/Untitled-4-02.png",
+      "./assets/images/flashlight/questions/4/Untitled-4-03.png",
+      "./assets/images/flashlight/questions/4/Untitled-4-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "number": 5,
+    "question": "Gambaran Pribadi",
+    "answer": [
+      "Senang mengatur",
+      "Senang meyakinkan orang lain",
+      "Senang mendukung orang lain",
+      "Senang kualitas tinggi"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/5/Untitled-5-01.png",
+      "./assets/images/flashlight/questions/5/Untitled-5-02.png",
+      "./assets/images/flashlight/questions/5/Untitled-5-03.png",
+      "./assets/images/flashlight/questions/5/Untitled-5-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "number": 6,
+    "question": "Impian",
+    "answer": [
+      "Prestasi. Uang",
+      "Menjadi bintang",
+      "Keuntungan jangka panjang",
+      "Keamanan untuk keluarga"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/6/Untitled-6-01.png",
+      "./assets/images/flashlight/questions/6/Untitled-6-02.png",
+      "./assets/images/flashlight/questions/6/Untitled-6-03.png",
+      "./assets/images/flashlight/questions/6/Untitled-6-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+    {
+    "number": 7,
+    "question": "Yang Ingin Diketahui",
+    "answer": [
+      "Apa",
+      "Siapa",
+      "Mengapa",
+      "Bagaimana"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/7/Untitled-7-01.png",
+      "./assets/images/flashlight/questions/7/Untitled-7-02.png",
+      "./assets/images/flashlight/questions/7/Untitled-7-03.png",
+      "./assets/images/flashlight/questions/7/Untitled-7-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "number": 8,
+    "question": "Titik Terlemah",
+    "answer": [
+      "Tidak peka terhadap perasaan orang lain",
+      "Melupakan komitmen yang pernah dibuat",
+      "Lambat dalam menyelesaikan suatu masalah",
+      "Banyak khawatir"
+      
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/8/Untitled-8-01.png",
+      "./assets/images/flashlight/questions/8/Untitled-8-02.png",
+      "./assets/images/flashlight/questions/8/Untitled-8-03.png",
+      "./assets/images/flashlight/questions/8/Untitled-8-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+    {
+    "number": 9,
+    "question": "Rahasia Ketakutan",
+    "answer": [
+      "Takut kehilangan pengakuan umum",
+      "Takut akan perubahan",
+      "Takut dengan ketidak-ketahuan",
+      "Takut dimanfaatkan"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/9/Untitled-9-01.png",
+      "./assets/images/flashlight/questions/9/Untitled-9-02.png",
+      "./assets/images/flashlight/questions/9/Untitled-9-03.png",
+      "./assets/images/flashlight/questions/9/Untitled-9-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "number": 10,
+    "question": "Ketika Merasa Terpojokkan",
+    "answer": [
+      "Menyerang secara frontal",
+      "Menyerang secara emosi",
+      "Menjadi keras kepala",
+      "Melawan secara teknis"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/10/Untitled-9-01.png",
+      "./assets/images/flashlight/questions/10/Untitled-9-02.png",
+      "./assets/images/flashlight/questions/10/Untitled-9-03.png",
+      "./assets/images/flashlight/questions/10/Untitled-9-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+    {
+    "number": 11,
+    "question": "Perilaku Konsumsi",
+    "answer": [
+      "Menyukai hal baru",
+      "Bergantung pada penampilan",
+      "Menyukai produk tradisional",
+      "Memutuskan dengan sangat hati-hati"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/11/Untitled-9-01.png",
+      "./assets/images/flashlight/questions/11/Untitled-9-02.png",
+      "./assets/images/flashlight/questions/11/Untitled-9-03.png",
+      "./assets/images/flashlight/questions/11/Untitled-9-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "number": 12,
+    "question": "Bahasa Tubuh",
+    "answer": [
+      "Condong ke depan",
+      "Ekspresif",
+      "Gestur yang lembut",
+      "Kaku"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/12/Untitled-9-01.png",
+      "./assets/images/flashlight/questions/12/Untitled-9-02.png",
+      "./assets/images/flashlight/questions/12/Untitled-9-03.png",
+      "./assets/images/flashlight/questions/12/Untitled-9-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "number": 13,
+    "question": "Recharge Energi",
+    "answer": [
+      "Aktivitas fisik",
+      "Berinteraksi",
+      "Meditasi",
+      "Menyendiri"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/13/Untitled-9-01.png",
+      "./assets/images/flashlight/questions/13/Untitled-9-02.png",
+      "./assets/images/flashlight/questions/13/Untitled-9-03.png",
+      "./assets/images/flashlight/questions/13/Untitled-9-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+    {
+    "number": 14,
+    "question": "Pola Berbicara",
+    "answer": [
+      "Cepat",
+      "Nada suara sangat bervariasi",
+      "Lebih suka mendengarkan",
+      "Nada suara monoton"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/14/Untitled-9-01.png",
+      "./assets/images/flashlight/questions/14/Untitled-9-02.png",
+      "./assets/images/flashlight/questions/14/Untitled-9-03.png",
+      "./assets/images/flashlight/questions/14/Untitled-9-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+    {
+    "number": 15,
+    "question": "Didorong Oleh",
+    "answer": [
+      "Keinginan",
+      "Perasaan",
+      "Rasa percaya",
+      "Intelektual"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/15/Untitled-9-01.png",
+      "./assets/images/flashlight/questions/15/Untitled-9-02.png",
+      "./assets/images/flashlight/questions/15/Untitled-9-03.png",
+      "./assets/images/flashlight/questions/15/Untitled-9-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+    {
+    "number": 16,
+    "question": "Pengendalian diri",
+    "answer": [
+      "Damai, merasa puas, bahagia",
+      "Terbuka",
+      "Tidak mudah marah",
+      "Percaya diri"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/16/Untitled-9-01.png",
+      "./assets/images/flashlight/questions/16/Untitled-9-02.png",
+      "./assets/images/flashlight/questions/16/Untitled-9-03.png",
+      "./assets/images/flashlight/questions/16/Untitled-9-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+    {
+    "number": 17,
+    "question": "Hubungan dengan sesama",
+    "answer": [
+      "Ingin selalu menang",
+      "Mempertimbangkan orang lain",
+      "Mencari hal-hal yang menyenangkan",
+      "Mau bekerjasama"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/17/Untitled-9-01.png",
+      "./assets/images/flashlight/questions/17/Untitled-9-02.png",
+      "./assets/images/flashlight/questions/17/Untitled-9-03.png",
+      "./assets/images/flashlight/questions/17/Untitled-9-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+    {
+    "number": 18,
+    "question": "Keinginan",
+    "answer": [
+      "Kekuasaan lebih",
+      "Kesempatan baru",
+      "Petunjuk yang jelas",
+      "Menghindari Konflik"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/18/Untitled-9-01.png",
+      "./assets/images/flashlight/questions/18/Untitled-9-02.png",
+      "./assets/images/flashlight/questions/18/Untitled-9-03.png",
+      "./assets/images/flashlight/questions/18/Untitled-9-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+    {
+    "number": 19,
+    "question": "Yang diutamakan",
+    "answer": [
+      "Pendidikan dan budaya",
+      "Pencapaian dan penghargaan",
+      "Keselamatan dan keamanan",
+      "Hal-hal social"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/19/Untitled-9-01.png",
+      "./assets/images/flashlight/questions/19/Untitled-9-02.png",
+      "./assets/images/flashlight/questions/19/Untitled-9-03.png",
+      "./assets/images/flashlight/questions/19/Untitled-9-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+    {
+    "number": 20,
+    "question": "Lebih suka untuk",
+    "answer": [
+      "Memimpin",
+      "Mengikuti",
+      "Membujuk",
+      "Menemukan fakta"
+    ],
+    "picture": [
+      "./assets/images/flashlight/questions/20/Untitled-9-01.png",
+      "./assets/images/flashlight/questions/20/Untitled-9-02.png",
+      "./assets/images/flashlight/questions/20/Untitled-9-03.png",
+      "./assets/images/flashlight/questions/20/Untitled-9-04.png"
+    ],
+    "points": [
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+]
