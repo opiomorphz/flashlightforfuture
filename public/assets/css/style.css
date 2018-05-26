@@ -631,7 +631,8 @@ label>input {
 
 .answer-text-container {
     height: 30px;
-    max-width: 320px;
+    max-width: 160px;
+    margin-top: 20px;
     /*background-color: white;*/
     display: flex;
     display: -webkit-flex;
@@ -709,14 +710,14 @@ p.answerP {
     padding-left: 0px;
     padding-right: 0;
     margin-right: 0;
-    border: transparent solid 5pt;
+    /*border: transparent solid 5pt;
     transition: border-color 0.3s;
     -webkit-transition: border-color 0.3s;
-    border-radius: 15px
+    border-radius: 15px*/
 }
 
 .question-content :hover{
-    border: #FBCE4A solid 5pt
+    /*border: #FBCE4A solid 5pt*/
 }
 
 .question-content .img-responsive {
