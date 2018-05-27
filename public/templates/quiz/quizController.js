@@ -6,8 +6,10 @@ angular.module("flashlightForFutureApp")
 
     quiz.questions = [];
     quiz.results = [];
-    quiz.personalityCounters = [0,0,0,0,0,0,0,0,0];
+    quiz.personalityCounters = [0,0,0,0,0,0,0,0,0];    
     quiz.highest = 0;
+
+    quiz.discCounters = [0,0,0,0];
 
     quiz.callToSetNumber = function() {
         detailService.setNumber(quiz.highest + 1);
@@ -36,6 +38,8 @@ angular.module("flashlightForFutureApp")
 
     quiz.setAnswer = function(number) {
         var n = quiz.questions[quiz.questionNumber-1].points[number];
+        quiz.discCounters[number - 1]++;
+
         quiz.personalityCounters[n-1]++;
 
         var changeHighest = quiz.personalityCounters[n-1] >=
