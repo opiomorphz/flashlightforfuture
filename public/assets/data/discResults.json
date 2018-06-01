@@ -1,25 +1,25 @@
 {"D" :
 {
     "pattern": "D",
-    "picture":["assets/images/flashlight/results/dominan/cowo/hasil awal-01.jpg", "assets/images/flashlight/results/dominan/cewe/hasil awal-01.jpg"],
+    "picture":["assets/images/flashlight/results/dominan/cowo/hasil awal-01.png", "assets/images/flashlight/results/dominan/cewe/hasil awal-02.png"],
     "description":"Kamu orang yang peka dan etis, mampu membedakan yang benar dan salah. Seorang guru, ksatria garis depan, dan pendukung perubahan: selalu berjuang untuk membuat semua hal lebih baik, namun takut membuat kesalahan. Rapi dan pilih-pilih, kamu menjaga standar yang tinggi, namun dapat menjadi kritis dan perfeksionis. Suka bermasalah dengan penyesalan dan ketidaksabaran.",
     "best":"Bijak, cerdas, realistis dan mulia. Dapat menjadi pahlawan secara moral."
 },
 "I" :{
     "pattern": "I",
-    "picture":["assets/images/flashlight/results/influence/cowo/hasil awal-03.jpg", "assets/images/flashlight/results/influence/cewe/hasil awal-03.jpg"],
+    "picture":["assets/images/flashlight/results/influence/cowo/hasil awal-03.png", "assets/images/flashlight/results/influence/cewe/hasil awal-04.png"],
     "description":"Kamu adalah orang yang hangat, empatis, dan rendah hati. Kamu juga ramah, dermawan dan rela berkorban, namun bisa menjadi sentimental, dan menghanyutkan. Kamu bermaksud baik dan ingin lebih dekat dengan orang lain, namun bisa saja ikut melakukan hal untuk orang lain saat dibutuhkan. Kebutuhan kamu untuk dicintai dan dihargai yang besar membawamu pada sifat posesif dan memanipulasi orang.",
     "best":"Tidak egois dan memperhatikan kesejahteraan orang lain, memberikan kasih sayang tanpa batas bagi sekitarmu."
 },
 "S" :{
     "pattern": "S",
-    "picture":["assets/images/flashlight/results/steadiness/cowo/hasil awal-06.jpg", "assets/images/flashlight/results/steadiness/cewe/hasil awal-06.jpg"],
+    "picture":["assets/images/flashlight/results/steadiness/cowo/hasil awal-06.png", "assets/images/flashlight/results/steadiness/cewe/hasil awal-05.png"],
     "description":"Kamu adalah orang yakin pada diri sendiri dan menarik secara fisik dan mental. Ambisius, mampu dan enerjik, mereka juga sadar pada diri sendiri dan terdorong pada kemajuan. Kamu diplomatis dan siap, namun bisa juga terlalu peduli dengan citra dirimu dihadapan orang lain. Kamu memiliki masalah dengan sifat workaholic dan suka bersaing.",
     "best":"Mampu menerima diri sendiri, tampil apa adanya, dan apa yang kamu lakukan bisa menjadi inspirasi untuk orang lain."
 },
 "C" :{
     "pattern": "C",
-    "picture":["assets/images/flashlight/results/compliance/cowo/hasil awal-07.jpg", "assets/images/flashlight/results/compliance/cewe/hasil awal-08.jpg"],
+    "picture":["assets/images/flashlight/results/compliance/cowo/hasil awal-07.png", "assets/images/flashlight/results/compliance/cewe/hasil awal-08.png"],
     "description":"Kamu sangat peka terhadap perasaan dirimu, orang yang ekspresif dan menjaga gambaran diri sendiri. Kamu jujur secara emosional, kreatif dan bisa saja berubah-ubah sifatnya. Menahan diri dari orang lain karena merasa rentan dan bercela, kamu juga merasa direndahkan dan dibedakan dari cara hidup yang biasa. Pada umumnya kamu bermasalah karena terlalu melankolis, rasa ingin memuaskan diri sendiri, dan mengasihani diri sendiri.",
     "best":"Selalu terinspirasi dan sangat kreatif, kamu mampu untuk memperbarui diri sendiri dan berubah melalui pengalaman."
 }
