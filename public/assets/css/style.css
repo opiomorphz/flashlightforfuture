@@ -1748,7 +1748,7 @@ label>input:checked+img {
 }
 
 .about-top {
-    background-color: #FBCE4A;
+    /*background-color: #FBCE4A;*/
     width: 100%;
     padding-top: 36px;
     padding-bottom: 56px
@@ -1785,7 +1785,7 @@ label>input:checked+img {
         flex: 0 1 auto;
         align-items: center;
         justify-content: center;
-        height: 380px
+        /*height: 380px*/
     }
     .about-header-img {
         display: flex;

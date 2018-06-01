@@ -1,0 +1,231 @@
+<div ng-controller="aboutController as about">
+    <div class="about-top">
+        <div class="container about-top-container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="row">
+                        <div class="col-xs-12 center-block">
+                            <h1 id="about-bigText" class="persona-dark-text">
+                            Apa itu
+                            <span id="about-bigMark">
+                                ?
+                            </span><br>
+                            9 Persona
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="row about-header-desc">
+                        <div class="col-xs-12">
+                            <p class="persona-dark-text">
+                                9 Persona adalah situs kuis kepribadian yang dibuat berdasarkan teori Enneagram yang merupakan salah satu cara untuk mengenal kepribadian seseorang berdasarkan 9 tipe dasar manusia. Enneagram berasal dari Bahasa Yunani yang terdiri dari ennea – sembilan dan grammos – sebuah gambar. Teori ini pertama kali dikemukakan oleh Oscar Ichazo, seorang filsuf otodidak pada tahun 1960an di Amerika.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 center-block about-header-img-wrapper">
+                    <img src="/assets/images/illus/about/big-01.png" alt="" class="about-header-img center-block img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-mid">
+        <!-- buttons -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="center-block text-center text-persona-header">
+                    <span class="highlighter">Enneagram</span>
+                    </h3>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="row">
+                        <div class="col-xs-3 text-center">
+                            <div class="about-buttons
+                                ng-class:{
+                                'active' : about.getStatus(1),
+                                'inactive': !about.getStatus(1)}"
+                                ng-click="about.setStatus(1)">
+                                <img src="/assets/images/illus/about/35x35-01.png" class="about-button-img" alt="">
+                                <p class="about-button-text buttonFont">simbol</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 text-center">
+                            <div class="about-buttons
+                                ng-class:{
+                                'active' : about.getStatus(2),
+                                'inactive': !about.getStatus(2)}"
+                                ng-click="about.setStatus(2)">
+                                <img src="/assets/images/illus/about/35x35-02.png" class="about-button-img" alt="">
+                                <p class="about-button-text buttonFont">pusat</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 text-center">
+                            <div class="about-buttons
+                                ng-class:{
+                                'active' : about.getStatus(3),
+                                'inactive': !about.getStatus(3)}"
+                                ng-click="about.setStatus(3)">
+                                <img src="/assets/images/illus/about/35x35-03.png" class="about-button-img" alt="">
+                                <p class="about-button-text buttonFont">sayap</p>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 text-center">
+                            <div class="about-buttons
+                                ng-class:{
+                                'active' : about.getStatus(4),
+                                'inactive': !about.getStatus(4)}"
+                                ng-click="about.setStatus(4)">
+                                <img src="/assets/images/illus/about/35x35-04.png" class="about-button-img" alt="">
+                                <p class="about-button-text buttonFont">panah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+        <div id="about-mid-container" class="container">
+            <div class="about-pad-top">
+                <!-- simbol -->
+                <div id="about-symbols" class="row ng-class:{
+                    'about-fadeInLeft': about.shouldFadeInLeft(1),
+                    'about-fadeOutLeft': about.shouldFadeOutLeft(1)
+                    }" ng-show="about.getStatus(1)">
+                    <div class="col-xs-12 col-sm-4 about-col-img">
+                        <img src="/assets/images/illus/about/symbol-big.png" alt="" class="about-symbol-img center-block img-responsive">
+                    </div>
+                    <div class="col-xs-12 col-sm-8 center-block">
+                        <p class="persona-dark-text about-symbol-desc">
+                            Simbol enneagram digambarkan berbentuk lingkaran dengan 9 titik berhubungan yang terdiri segitiga dan heksagon tak beraturan. Titik-titik tersebut melambangkan kesembilan tipe dasar manusia berikut:
+                        </p>
+                        <div class="center-block about-symbol-list">
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="about-symbol-list-item">
+                                    <img src="/assets/images/illus/about/20x20-01.png" alt=""> The Reformer
+                                </div>
+                                <div class="about-symbol-list-item">
+                                    <img src="/assets/images/illus/about/20x20-02.png" alt=""> The Helper
+                                </div>
+                                <div class="about-symbol-list-item">
+                                    <img src="/assets/images/illus/about/20x20-03.png" alt=""> The Achiever
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="about-symbol-list-item">
+                                    <img src="/assets/images/illus/about/20x20-04.png" alt=""> The Individualist
+                                </div>
+                                <div class="about-symbol-list-item">
+                                    <img src="/assets/images/illus/about/20x20-05.png" alt=""> The Investigator
+                                </div>
+                                <div class="about-symbol-list-item">
+                                    <img src="/assets/images/illus/about/20x20-06.png" alt=""> The Loyalist
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="about-symbol-list-item">
+                                    <img src="/assets/images/illus/about/20x20-07.png" alt=""> The Enthusiast
+                                </div>
+                                <div class="about-symbol-list-item">
+                                    <img src="/assets/images/illus/about/20x20-08.png" alt=""> The Challenger
+                                </div>
+                                <div class="about-symbol-list-item">
+                                    <img src="/assets/images/illus/about/20x20-09.png" alt=""> The Peacemaker
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- pusat -->
+                <div id="about-center" class="row ng-class:{
+                    'about-fadeInLeft': about.shouldFadeInLeft(2),
+                    'about-fadeInRight': about.shouldFadeInRight(2),
+                    'about-fadeOutLeft': about.shouldFadeOutLeft(2),
+                    'about-fadeOutRight': about.shouldFadeOutRight(2)
+                    }" ng-show="about.getStatus(2)">
+                    <div class="col-xs-12 col-sm-4 about-pusat-img">
+                        <img class="img-circle img-responsive center-block" src="/assets/images/illus/about/pusat/01.png" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-4 about-pusat-img">
+                        <img class="img-circle img-responsive center-block" src="/assets/images/illus/about/pusat/02.png" alt="">
+                    </div>
+                    <div class="col-xs-12 col-sm-4 about-pusat-img">
+                        <img class="img-circle img-responsive center-block" src="/assets/images/illus/about/pusat/03.png" alt="">
+                    </div>
+                    <div class="col-xs-12 center-block about-desc-flex">
+                        <p class="about-pusat-desc persona-dark-text text-center">
+                            Enneagram terbagi menjadi 3 pusat yang masing-masing memuat 3 tipe di dalamnya. Tiga bagian tersebut adalah pusat naluriah (Instinctive Center), pusat berpikir (Thinking Center), dan pusat perasaan (Feeling Center).
+                        </p>
+                    </div>
+                </div>
+                <!-- sayap -->
+                <div id="about-wings" class="row ng-class:{
+                    'about-fadeInLeft': about.shouldFadeInLeft(3),
+                    'about-fadeInRight': about.shouldFadeInRight(3),
+                    'about-fadeOutLeft': about.shouldFadeOutLeft(3),
+                    'about-fadeOutRight': about.shouldFadeOutRight(3)
+                    }" ng-show="about.getStatus(3)">
+                    <div class="col-xs-12 center-block about-desc-flex">
+                        <p class="about-wing-desc persona-dark-text text-center">
+                            Tidak ada kepribadian yang murni dari satu tipe, setiap orang adalah campuran unik dari tipe dasarnya dan bisa saja bercampur dengan karakteristik dari tipe yang lain. Dalam Enneagram, hal tersebut dinamakan sayap. Suatu tipe cenderung bercampur dengan tipe kiri atau kanannya. Sayap cenderung dominan pada satu arah tetapi tidak menutup kemungkinan seseorang memiliki 2 sayap.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 about-sayap-img">
+                        <img class="img-responsive center-block" src="/assets/images/illus/about/sayap.png" alt="">
+                    </div>
+                </div>
+                <!-- panah -->
+                <div id="about-arrow" class="row ng-class:{
+                    'about-fadeInRight': about.shouldFadeInRight(4),
+                    'about-fadeOutRight': about.shouldFadeOutRight(4)
+                    }" ng-show="about.getStatus(4)">
+                    <div class="col-xs-12 col-sm-7 center-block">
+                        <p class="persona-dark-text about-panah-desc">
+                            Pada titik-titik dalam segitiga terdapat panah dari nomor 9 menuju 3, 6 kemudian kembali ke titik 9 dan dalam heksagram tak beraturan yang dimulai dari titik nomor 1 menuju 7, 5, 8, 2, 4 dan kembali pada titik nomor 1. Arah tersebut menjelaskan adanya integrasi dan disintegrasi dari suatu kepribadian ke yang lain.
+                        </p>
+                        <p class="persona-dark-text about-panah-desc">
+                            Dalam kondisi baik dan berkembang, suatu tipe akan bergerak mengambil karakter positif dari tipe lain (mengikuti arah panah). Hal tersebut yang dinamakan Panah Integrasi. Sebaliknya, pada kondisi tidak baik dan stres, suatu tipe akan mengambil karakter negatif dari arah berlawanan. Kondisi tersebut dinamakan Panah Disintegrasi. Kedua kondisi ini akan dijelaskan lebih lanjut pada dekripsi tiap tipe.
+                        </p>
+                    </div>
+                    <div class="col-xs-12 col-sm-5">
+                        <img class="about-img-arrow center-block square-image" src="/assets/images/illus/about/panah.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bottom -->
+    <div class="about-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="center-block text-center text-persona-header">
+                    <span class="highlighter">Sumber</span>
+                    </h3>
+                    <p class="about-bottom-text text-center persona-dark-text">
+                        Setiap tulisan dalam website ini merupakan kumpulan informasi yang dirangkai ulang oleh penulis berdasarkan sumber di bawah ini:
+                    </p>
+                </div>
+                <div class="col-xs-12">
+                    <p class="about-bottom-head text-center">
+                        <strong>Website (konten berbahasa Inggris)</strong>
+                    </p>
+                    <p class="about-bottom-text text-center persona-dark-text">
+                        www.enneagraminstitute.com
+                    </p>
+                </div>
+                <div class="col-xs-12">
+                    <p class="about-bottom-head text-center">
+                        <strong>Buku</strong>
+                    </p>
+                    <p class="about-bottom-text text-center persona-dark-text">
+                        Baron, Renee., dan Elizabeth Wagele. 2014. Eneagram. Jakarta: Serambi Ilmu Semesta.<br>
+                    </p>
+                    <p class="about-bottom-text text-center persona-dark-text">
+                        Baron, Renee., dan Elizabeth Wagele. 2007. Enneagram of Love and Relationships.<br>
+                        Jakarta: Serambi Ilmu Semesta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
