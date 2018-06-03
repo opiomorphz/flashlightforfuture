@@ -172,6 +172,7 @@ return result;
 
 ctrl.checkNumber = function() {
     var x = detailService.getNumber();
+    
     if(x) {
         ctrl.current = x;
         detailService.setNumber(null);

@@ -64,16 +64,16 @@ angular.module("flashlightForFutureApp", ['ngRoute', 'ngAnimate', 'duScroll'])
     templateUrl: '/templates/quiz/index.html'
   })
 
-  .when('/persona', {
-    title: 'Persona',
+  .when('/disc', {
+    title: 'Disc',
     animation: 'grid-animation',
-    templateUrl: '/templates/persona/index.html'
+    templateUrl: '/templates/disc/index.html'
   })
 
-  .when('/persona/details', {
-    title: 'Tipe',
+  .when('/disc/details', {
+    title: 'Disc Detail',
     animation: 'detail-animation',
-    templateUrl:'/templates/persona/detail/index.html'
+    templateUrl:'/templates/disc/detail/index.html'
   })
 
   .when('/about', {

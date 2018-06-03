@@ -3,17 +3,18 @@
         
     <div class="row container-menu-carousel">
         <div class="col-xs-2 col-sm-3 col-md-4">
-            <a ng-click="detailCtrl.left()" id="l-car-button" class="btn carousel-button" role="button">
-                &lt;
-            </a>
+            
         </div>
         <div class="col-xs-8 col-sm-6 col-md-4">
-            <img class="img-header-carousel img-responsive" ng-src={{detailCtrl.carouselImages[detailCtrl.current-1].header}}>
-        </div>
-        <div class="col-xs-2 col-sm-3 col-md-4">
-            <a ng-click="detailCtrl.right()" id="r-car-button" class="btn carousel-button">
+            <a ng-click="detailCtrl.left()" id="r-car-button" class="btn carousel-button" role="button">
+                &lt;
+            </a>
+            <a ng-click="detailCtrl.right()" id="l-car-button" class="btn carousel-button">
                 &gt;
             </a>
+        </div>
+        <div class="col-xs-2 col-sm-3 col-md-4">
+            
         </div>
     </div>
     <!-- Carousel -->

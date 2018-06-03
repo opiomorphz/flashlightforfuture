@@ -12,7 +12,23 @@ angular.module("flashlightForFutureApp")
     quiz.discCounters = [0,0,0,0];
 
     quiz.callToSetNumber = function() {
-        detailService.setNumber(quiz.highest + 1);
+        var discResult = quiz.getDiscResult();
+        var idx = 1;
+        if(discResult == 'D'){
+            idx=1;
+        }
+        else if(discResult == 'I'){
+            idx=2;
+        }
+        else if(discResult == 'S'){
+            idx=3;
+        }
+        else if(discResult == 'C'){
+            idx=4;
+        }
+
+        detailService.setNumber(idx);
+        //detailService.setNumber(quiz.highest + 1);
     };
 
     quiz.isGenderPage = function(){

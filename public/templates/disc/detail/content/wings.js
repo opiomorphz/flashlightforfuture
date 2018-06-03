@@ -2,6 +2,6 @@ angular.module('flashlightForFutureApp')
 .directive('wings', function() {
     return {
         restrict: 'E',
-        templateUrl:'/templates/persona/detail/content/wings.html',
+        templateUrl:'/templates/disc/detail/content/wings.html',
     };
 });
