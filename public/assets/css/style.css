@@ -1180,7 +1180,8 @@ label>input:checked+img {
 
 #big-carousel {
     position: relative;
-    width: 100%
+    width: 100%;
+    height: 800px;
 }
 
 #detail-carousel-wrapper {
@@ -1398,6 +1399,7 @@ label>input:checked+img {
 
 .characteristics-content {
     width: 80%;
+    height: 1000px;
     margin: 0 auto;
     max-width: 860px
 }

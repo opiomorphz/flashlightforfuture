@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="center-block container-wing">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="center-block text-center text-persona-header">
+                <span class="highlighter">Sayap</span>
+                </h3>
+            </div>
+            <div class="col-xs-12">
+                <p class="center-block desc-head text-center">
+                    {{detailCtrl.wingsData[detailCtrl.current-1].description}}
+                </p>
+            </div>
+            <div class="col-xs-12">
+                <div class="wing-block center-block">
+                    <img ng-src={{detailCtrl.wingsData[detailCtrl.current-1].image}} class="img-wing img-responsive center-block">
+                    
+                    <span class="left-wing visible-sm visible-md visible-lg">
+                        <h4 class="text-center
+                        ng-class:{'text-instinct': detailCtrl.type == 1,
+                        'text-feeling': detailCtrl.type == 2,
+                        'text-thinking': detailCtrl.type == 3}">
+                            {{detailCtrl.wingsData[detailCtrl.current-1].left.header}}
+                        </h4>
+                        <div class="wing-text-container">
+                            <p class="text-center text-wing persona-dark-text">
+                            {{detailCtrl.wingsData[detailCtrl.current-1].left.paragraph}}
+                            </p>
+                        </div>
+                    </span>
+                    
+                    <span class="right-wing visible-sm visible-md visible-lg">
+                        <h4 class="text-center
+                        ng-class:{'text-instinct': detailCtrl.type == 1,
+                        'text-feeling': detailCtrl.type == 2,
+                        'text-thinking': detailCtrl.type == 3}">
+                            {{detailCtrl.wingsData[detailCtrl.current-1].right.header}}
+                        </h4>
+                        <div class="wing-text-container">
+                            <p class="text-center text-wing persona-dark-text">
+                            {{detailCtrl.wingsData[detailCtrl.current-1].right.paragraph}}
+                            </p>
+                        </div>
+                    </span>
+                    <!-- Only in mobile -->
+                </div>
+                <div class="center-block visible-xs hidden-sm hidden-md hidden-lg">
+                    <h4 class="text-center
+                    ng-class:{'text-instinct': detailCtrl.type == 1,
+                    'text-feeling': detailCtrl.type == 2,
+                    'text-thinking': detailCtrl.type == 3}">
+                    {{detailCtrl.wingsData[detailCtrl.current-1].left.header}}
+                    </h4>
+                    <p class="text-center center-block text-wing persona-dark-text">
+                        {{detailCtrl.wingsData[detailCtrl.current-1].left.paragraph}}
+                    </p>
+                    <h4 class="text-center
+                    ng-class:{'text-instinct': detailCtrl.type == 1,
+                    'text-feeling': detailCtrl.type == 2,
+                    'text-thinking': detailCtrl.type == 3}">
+                    {{detailCtrl.wingsData[detailCtrl.current-1].right.header}}
+                    </h4>
+                    <p class="text-center center-block text-wing persona-dark-text">
+                        {{detailCtrl.wingsData[detailCtrl.current-1].right.paragraph}}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,10 +1,18 @@
 [{
-    "image": "./assets/images/illus/carousel/1.png",
-    "header": "./assets/images/illus/title/01.png"
+    "image": "./assets/images/flashlight/results/dominan/cowo/1.gif",
+    "header": "./assets/images/illus/title/01.png",
+    "characteristic" : "./assets/images/flashlight/results/dominan/cowo/2.jpg",
+    "wing" : "./assets/images/flashlight/results/dominan/cowo/3.jpg",
+    "job" : "./assets/images/flashlight/results/dominan/cowo/4.jpg",
+    "figure" : "./assets/images/flashlight/results/dominan/cowo/5.jpg"
 },
 {
-    "image": "./assets/images/illus/carousel/2.png",
-    "header": "./assets/images/illus/title/02.png"
+    "image": "./assets/images/flashlight/results/influence/cowo/1.gif",
+    "header": "./assets/images/illus/title/02.png",
+    "characteristic" : "./assets/images/flashlight/results/influence/cowo/2.jpg",
+    "wing" : "./assets/images/flashlight/results/influence/cowo/3.jpg",
+    "job" : "./assets/images/flashlight/results/influence/cowo/4.jpg",
+    "figure" : "./assets/images/flashlight/results/influence/cowo/5.jpg"
 },
 {
     "image": "./assets/images/illus/carousel/3.png",

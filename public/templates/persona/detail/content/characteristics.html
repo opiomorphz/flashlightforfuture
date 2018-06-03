@@ -1,81 +1,9 @@
-<div class="container-fluid characteristics-container">
-    <div class="row characteristics-content">
-        <div class="col-xs-12">
-            <h3 class="center-block text-center text-persona-header">
-            <span class="highlighter">Karakteristik</span>
-            </h3>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 chr-box">
-            <img ng-src={{detailCtrl.characteristicsData[detailCtrl.current-1][0].image}} class="img-chr square-image img-responsive center-block">
-            <p class="headText text-center
-            ng-class:{'text-instinct': detailCtrl.type == 1,
-            'text-feeling': detailCtrl.type == 2,
-            'text-thinking': detailCtrl.type == 3}">
-            {{detailCtrl.characteristicsData[detailCtrl.current-1][0].header}}
-            </p>
-            <p class="text-center characteristics-text center-block persona-dark-text">
-                {{detailCtrl.characteristicsData[detailCtrl.current-1][0].paragraph}}
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 chr-box">
-            <img ng-src={{detailCtrl.characteristicsData[detailCtrl.current-1][1].image}} class="img-chr square-image img-responsive center-block">
-            <p class="headText text-center
-            ng-class:{'text-instinct': detailCtrl.type == 1,
-            'text-feeling': detailCtrl.type == 2,
-            'text-thinking': detailCtrl.type == 3}">
-            {{detailCtrl.characteristicsData[detailCtrl.current-1][1].header}}
-            </p>
-            <p class="text-center characteristics-text center-block persona-dark-text">
-                {{detailCtrl.characteristicsData[detailCtrl.current-1][1].paragraph}}
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 chr-box">
-            <img ng-src={{detailCtrl.characteristicsData[detailCtrl.current-1][2].image}} class="img-chr square-image img-responsive center-block">
-            <p class="headText text-center
-            ng-class:{'text-instinct': detailCtrl.type == 1,
-            'text-feeling': detailCtrl.type == 2,
-            'text-thinking': detailCtrl.type == 3}">
-            {{detailCtrl.characteristicsData[detailCtrl.current-1][2].header}}
-            </p>
-            <p class="text-center characteristics-text center-block persona-dark-text">
-                {{detailCtrl.characteristicsData[detailCtrl.current-1][2].paragraph}}
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 chr-box">
-            <img ng-src={{detailCtrl.characteristicsData[detailCtrl.current-1][3].image}} class="img-chr square-image img-responsive center-block">
-            <p class="headText text-center
-            ng-class:{'text-instinct': detailCtrl.type == 1,
-            'text-feeling': detailCtrl.type == 2,
-            'text-thinking': detailCtrl.type == 3}">
-            {{detailCtrl.characteristicsData[detailCtrl.current-1][3].header}}
-            </p>
-            <p class="text-center characteristics-text center-block persona-dark-text">
-                {{detailCtrl.characteristicsData[detailCtrl.current-1][3].paragraph}}
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 chr-box">
-            <img ng-src={{detailCtrl.characteristicsData[detailCtrl.current-1][4].image}} class="img-chr square-image img-responsive center-block">
-            <p class="headText text-center
-            ng-class:{'text-instinct': detailCtrl.type == 1,
-            'text-feeling': detailCtrl.type == 2,
-            'text-thinking': detailCtrl.type == 3}">
-            {{detailCtrl.characteristicsData[detailCtrl.current-1][4].header}}
-            </p>
-            <p class="text-center characteristics-text center-block persona-dark-text">
-                {{detailCtrl.characteristicsData[detailCtrl.current-1][4].paragraph}}
-            </p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 chr-box">
-            <img ng-src={{detailCtrl.characteristicsData[detailCtrl.current-1][5].image}} class="img-chr square-image img-responsive center-block">
-            <p class="headText text-center
-            ng-class:{'text-instinct': detailCtrl.type == 1,
-            'text-feeling': detailCtrl.type == 2,
-            'text-thinking': detailCtrl.type == 3}">
-            {{detailCtrl.characteristicsData[detailCtrl.current-1][5].header}}
-            </p>
-            <p class="text-center characteristics-text center-block persona-dark-text">
-                {{detailCtrl.characteristicsData[detailCtrl.current-1][5].paragraph}}
-            </p>
+<div class="container">
+    <div class="center-block container-wing">
+        <div class="row">            
+            <div>
+                <img  ng-src={{detailCtrl.carouselImages[detailCtrl.current-1].characteristic}}>
+            </div>
         </div>
     </div>
 </div>

@@ -1,74 +1,8 @@
-<div class="container-fluid wrapper-arrow
-    ng-class:{'instinct-twotone': detailCtrl.type == 1,
-    'feeling-twotone': detailCtrl.type == 2,
-    'thinking-twotone': detailCtrl.type == 3}">
-    <div class="row container-arrow center-block">
-        <div class="col-xs-12">
-            <h3 class="center-block text-center text-persona-header">
-            <span class="highlighter">Panah</span>
-            </h3>
-            <p class="center-block text-center desc-head persona-light-text">
-                {{detailCtrl.arrowData[detailCtrl.current-1].description}}
-            </p>
-        </div>
-        
-        <div class="content-arrow col-xs-12 col-sm-4 center-block ng-class:{'instinct': detailCtrl.type == 1,
-            'feeling': detailCtrl.type == 2,
-            'thinking': detailCtrl.type == 3}">
-            <div class="arrow-box persona-light-text center-block
-                ng-class:{'instinct-darker': detailCtrl.type == 1,
-                'feeling-darker': detailCtrl.type == 2,
-                'thinking-darker': detailCtrl.type == 3}">
-                <p class="text-center">{{detailCtrl.arrowData[detailCtrl.current-1].left.paragraphs[0]}}</p>
-            </div>
-            <div class="arrow-box persona-light-text center-block
-                ng-class:{'instinct-darker': detailCtrl.type == 1,
-                'feeling-darker': detailCtrl.type == 2,
-                'thinking-darker': detailCtrl.type == 3}">
-                <p class="text-center">{{detailCtrl.arrowData[detailCtrl.current-1].left.paragraphs[1]}}</p>
-            </div>
-            <div class="arrow-box persona-light-text center-block
-                ng-class:{'instinct-darker': detailCtrl.type == 1,
-                'feeling-darker': detailCtrl.type == 2,
-                'thinking-darker': detailCtrl.type == 3}">
-                <p class="text-center">{{detailCtrl.arrowData[detailCtrl.current-1].left.paragraphs[2]}}</p>
-            </div>
-            <div class="arrow-box persona-light-text center-block
-                ng-class:{'instinct-darker': detailCtrl.type == 1,
-                'feeling-darker': detailCtrl.type == 2,
-                'thinking-darker': detailCtrl.type == 3}">
-                <p class="text-center">{{detailCtrl.arrowData[detailCtrl.current-1].left.paragraphs[3]}}</p>
-            </div>
-        </div>
-        <div class="hidden-xs visible-sm visible-md visible-lg col-sm-4 center-block">
-            <img ng-src={{detailCtrl.arrowData[detailCtrl.current-1].image}} class="img-arrow img-responsive center-block">
-        </div>
-        <div class="content-arrow col-xs-12 col-sm-4 center-block ng-class:{'instinct-darker': detailCtrl.type == 1,
-            'feeling-darker': detailCtrl.type == 2,
-            'thinking-darker': detailCtrl.type == 3}">
-            <div class="arrow-box persona-light-text center-block
-                ng-class:{'instinct': detailCtrl.type == 1,
-                'feeling': detailCtrl.type == 2,
-                'thinking': detailCtrl.type == 3}">
-                <p class="text-center">{{detailCtrl.arrowData[detailCtrl.current-1].right.paragraphs[0]}}</p>
-            </div>
-            <div class="arrow-box persona-light-text center-block
-                ng-class:{'instinct': detailCtrl.type == 1,
-                'feeling': detailCtrl.type == 2,
-                'thinking': detailCtrl.type == 3}">
-                <p class="text-center">{{detailCtrl.arrowData[detailCtrl.current-1].right.paragraphs[1]}}</p>
-            </div>
-            <div class="arrow-box persona-light-text center-block
-                ng-class:{'instinct': detailCtrl.type == 1,
-                'feeling': detailCtrl.type == 2,
-                'thinking': detailCtrl.type == 3}">
-                <p class="text-center">{{detailCtrl.arrowData[detailCtrl.current-1].right.paragraphs[2]}}</p>
-            </div>
-            <div class="arrow-box persona-light-text center-block
-                ng-class:{'instinct': detailCtrl.type == 1,
-                'feeling': detailCtrl.type == 2,
-                'thinking': detailCtrl.type == 3}">
-                <p class="text-center">{{detailCtrl.arrowData[detailCtrl.current-1].right.paragraphs[3]}}</p>
+<div class="container">
+    <div class="center-block container-wing">
+        <div class="row">            
+            <div>
+                <img  ng-src={{detailCtrl.carouselImages[detailCtrl.current-1].job}}>
             </div>
         </div>
     </div>
