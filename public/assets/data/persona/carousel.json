@@ -15,31 +15,19 @@
     "figure" : "./assets/images/flashlight/results/influence/cowo/5.jpg"
 },
 {
-    "image": "./assets/images/illus/carousel/3.png",
-    "header": "./assets/images/illus/title/03.png"
+    "image": "./assets/images/flashlight/results/steadiness/cowo/1.gif",
+    "header": "./assets/images/illus/title/02.png",
+    "characteristic" : "./assets/images/flashlight/results/steadiness/cowo/2.jpg",
+    "wing" : "./assets/images/flashlight/results/steadiness/cowo/3.jpg",
+    "job" : "./assets/images/flashlight/results/steadiness/cowo/4.jpg",
+    "figure" : "./assets/images/flashlight/results/steadiness/cowo/5.jpg"
 },
 {
-    "image": "./assets/images/illus/carousel/4.png",
-    "header": "./assets/images/illus/title/04.png"
-},
-{
-    "image": "./assets/images/illus/carousel/5.png",
-    "header": "./assets/images/illus/title/05.png"
-},
-{
-    "image": "./assets/images/illus/carousel/6.png",
-    "header": "./assets/images/illus/title/06.png"
-},
-{
-    "image": "./assets/images/illus/carousel/7.png",
-    "header": "./assets/images/illus/title/07.png"
-},
-{
-    "image": "./assets/images/illus/carousel/8.png",
-    "header": "./assets/images/illus/title/08.png"
-},
-{
-    "image": "./assets/images/illus/carousel/9.png",
-    "header": "./assets/images/illus/title/09.png"
+    "image": "./assets/images/flashlight/results/compliance/cowo/1.gif",
+    "header": "./assets/images/illus/title/02.png",
+    "characteristic" : "./assets/images/flashlight/results/compliance/cowo/2.jpg",
+    "wing" : "./assets/images/flashlight/results/compliance/cowo/3.jpg",
+    "job" : "./assets/images/flashlight/results/compliance/cowo/4.jpg",
+    "figure" : "./assets/images/flashlight/results/compliance/cowo/5.jpg"
 }
 ]
