@@ -103,11 +103,11 @@ ctrl.shouldSlideInLeft = function(stat) {
     var result = false;
     if(ctrl.current === stat) {
 
-        if((ctrl.previous === 9 && ctrl.current === 1)
+        if((ctrl.previous === 4 && ctrl.current === 1)
             || ctrl.previous === 0) {
             result = false;
     } else if(stat < ctrl.previous 
-        || (ctrl.previous == 1 && ctrl.current == 9)) {
+        || (ctrl.previous == 1 && ctrl.current == 4)) {
         result = true;
     }
 } else {
@@ -120,11 +120,11 @@ ctrl.shouldSlideInRight = function(stat) {
     var result = false;
     if(ctrl.current === stat) {
 
-        if((ctrl.previous == 1 && ctrl.current == 9)
+        if((ctrl.previous == 1 && ctrl.current == 4)
             || ctrl.previous === 0) {
             result = false;
     } else if(stat > ctrl.previous 
-        || (ctrl.previous == 9 && ctrl.current == 1)) {
+        || (ctrl.previous == 4 && ctrl.current == 1)) {
         result = true;
     }
 } else {
@@ -137,11 +137,11 @@ ctrl.shouldSlideOutLeft = function(stat) {
     var result = false;
     if(ctrl.previous === stat) {
 
-        if(ctrl.previous == 1 && ctrl.current == 9) {
+        if(ctrl.previous == 1 && ctrl.current == 4) {
             result = false;
         }
         else if(stat < ctrl.current 
-            || (ctrl.previous == 9 && ctrl.current == 1)) {
+            || (ctrl.previous == 4 && ctrl.current == 1)) {
             result = true; 
     }
 } else {
@@ -155,11 +155,11 @@ ctrl.shouldSlideOutRight = function(stat) {
     var result = false;
     if(ctrl.previous === stat) {
 
-        if(ctrl.previous == 9 && ctrl.current == 1) {
+        if(ctrl.previous == 4 && ctrl.current == 1) {
             result = false;
         }
         else if(stat > ctrl.current 
-            || (ctrl.previous == 1 && ctrl.current == 9)
+            || (ctrl.previous == 1 && ctrl.current == 4)
             ) {
             result = true;
     }
@@ -208,7 +208,7 @@ ctrl.update = function() {
         ctrl.doAnim();
         var num = Number(ctrl.current);
         ctrl.previous = num;
-        num = num === 1 ? 9 : num - 1;
+        num = num === 1 ? 4 : num - 1;
         ctrl.current = num;
         ctrl.update();
         
@@ -221,7 +221,7 @@ ctrl.update = function() {
         ctrl.doAnim();
         var num = Number(ctrl.current);
         ctrl.previous = num;
-        num = num === 9 ? 1 : num + 1;
+        num = num === 4 ? 1 : num + 1;
         ctrl.current = num;
         ctrl.update();
 
